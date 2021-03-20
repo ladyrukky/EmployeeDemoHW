@@ -41,7 +41,11 @@ public class Employee {
 	
 //	Homework
 	
-	public static Employee hireEmployee(Employee e1) {
+	public static Employee hireEmployee(int employeeId, String employeeLastName, 
+			String employeeFirstName, double salary,
+			String workHours, boolean isFullTime, 
+			boolean isActive, Role role, Gender gender) {
+		Employee e1 = new Employee(employeeID, employeeLastName, employeeFirstName, salary, workHours, isFullTime, isActive, role, gender);
 		return e1;
 	}
 
